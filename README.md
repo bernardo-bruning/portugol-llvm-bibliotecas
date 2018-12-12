@@ -1,7 +1,7 @@
 # Requisitos
 
 - llvm 3.1
-- MinGW
+- [MinGW](https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download)
 - SDL
 - NDK
 
