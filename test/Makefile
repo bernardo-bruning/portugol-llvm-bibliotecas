@@ -1,4 +1,4 @@
-NDK_PATH = C:\Users\Bernardo\Downloads\android-ndk-r12b-windows-x86_64\android-ndk-r12b
+NDK_PATH = C:\ndk
 
 TOOLCHAINS = /toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64
 

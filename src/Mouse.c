@@ -2,11 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <SDL.h>
 #if ANDROID
+#include <SDL.h>
 #include <SDL_image.h>
 #endif
 #if WIN32
+#include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #endif
 #include "Mouse.h"

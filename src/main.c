@@ -1,5 +1,10 @@
 #include <stdio.h>
+#if ANDROID
 #include <SDL.h>
+#endif
+#if WIN32
+#include <SDL2/SDL.h>
+#endif
 
 /*
 void escreva(char* valor) {

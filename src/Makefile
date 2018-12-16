@@ -1,4 +1,4 @@
-NDK_PATH = C:\Users\Bernardo\Downloads\android-ndk-r12b-windows-x86_64\android-ndk-r12b
+NDK_PATH = C:/ndk
 
 FILE_SOURCE = Graficos.c ES.c Util.c Mouse.c Teclado.c Matematica.c Tipos.c
 
@@ -31,7 +31,7 @@ make_android:
 
 build_sdl_android:
 	@echo ******************* Compilando SDL... isso pode demorar alguns minutos. *******************
-	ndk-build NDK_PROJECT_PATH=../android/
+	$(NDK_PATH)/ndk-build NDK_PROJECT_PATH=../android/
 
 compile_android:
 	@echo ******************* Compilando bibliotecas *******************

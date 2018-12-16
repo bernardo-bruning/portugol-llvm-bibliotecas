@@ -1,7 +1,12 @@
 //Using SDL and standard IO
 #include <stdio.h>
 #include <stdarg.h>
+#if ANDROID
 #include <SDL.h>
+#endif
+#if WIN32
+#include <SDL2/SDL.h>
+#endif
 #include "ES.h"
 
 void escreva(const char *format, ...) {

@@ -1,6 +1,11 @@
 //Using SDL and standard IO
 #include <stdio.h>
+#if ANDROID
 #include <SDL.h>
+#endif
+#if WIN32
+#include <SDL2/SDL.h>
+#endif
 #include <time.h>
 #include "Util.h"
 
